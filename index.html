@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Prescription Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="prescription-card" id="prescriptionCard">
+            <div class="header">
+                <h1>LOVE PRESCRIPTION</h1>
+                <div class="clinic-info">
+                    <p>Dr. Love's Clinic</p>
+                    <p>Specializing in Matters of the Heart</p>
+                </div>
+            </div>
+
+            <div class="prescription-content">
+                <div class="patient-info">
+                    <div class="field">
+                        <label>Patient:</label>
+                        <input type="text" id="patientName" placeholder="Enter her name" value="My Beloved">
+                    </div>
+                    <div class="field">
+                        <label>Doctor:</label>
+                        <span id="doctorName">Kiran, MD in Love</span>
+                    </div>
+                    <div class="field">
+                        <label>Date:</label>
+                        <span id="currentDate"></span>
+                    </div>
+                </div>
+
+                <div class="prescription-body">
+                    <h3>PRESCRIPTION:</h3>
+                    <div class="prescription-text" id="prescriptionText">
+                        Click "Generate Prescription" to get your love prescription! 💕
+                    </div>
+                </div>
+
+                <div class="signature-section">
+                    <div class="signature">
+                        <p>Dr. Kiran, MD in Love</p>
+                        <div class="signature-line"></div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="generate-btn" id="generateBtn">Generate Prescription</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
